@@ -1,0 +1,12 @@
+IMPORTANT!
+Ce projet a besoin de node.js.
+Si vous n'avez pas Node.js, vous pouvez l'installer à cette adresse: https://nodejs.org/en/
+
+Une fois node installé sur votre ordinateur, vous devez installer les dépendances du projet sur votre ordinateur.
+Pour ce faire, ouvrez un cmd,
+Allez dans le bon directory du projet et entrez la commande "npm install",
+Allez ensuite dans le directory ./client et rerentrez la commande "npm install",
+Et voilà, toutes les dépendances se sont installées toute seules.
+
+Pour exécuter le programme, il suffit d'entrer la commande "npm run dev"
+l'adresse de la page est au localhost:3000 et l'adresse du serveur est au localhost:5000

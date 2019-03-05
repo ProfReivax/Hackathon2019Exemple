@@ -1,0 +1,20 @@
+{
+  "name": "essaie-5",
+  "version": "1.0.0",
+  "description": "Essaie numero 5 de creation de l'application",
+  "main": "server.js",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Xavier Dupuis",
+  "license": "MIT"
+}
